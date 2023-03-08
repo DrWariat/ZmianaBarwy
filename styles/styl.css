@@ -528,6 +528,15 @@ a:hover {
   height: 500px;
 }
 
+@media screen and (max-width: 880px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery__column {
+    width: auto;
+  }
+}
 .s5 .iframe-container {
   overflow: hidden;
   /* 16:9 aspect ratio */
@@ -655,6 +664,7 @@ a:hover {
   }
   .s5 .iframe-container {
     padding-top: 50%;
+    height: 100%;
   }
   .s5 .iframe-container iframe {
     margin-left: 0px;

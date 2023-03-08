@@ -577,7 +577,16 @@ grid-template-columns: 1fr;
 }
 }
 
+@media screen and (max-width: 880px) {
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__column{
+      width: auto;
+    }
 
+  }
+}
 
 
 // kontakt card - poprawić mobilki 
@@ -726,6 +735,7 @@ grid-template-columns: 1fr;
     }
     .iframe-container {
       padding-top: 50%;
+      height: 100%;
     }
     .iframe-container iframe{
       margin-left: 0px;
