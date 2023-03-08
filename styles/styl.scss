@@ -327,11 +327,11 @@ grid-template-columns: 1fr;
 }
 
 .card0{
-  background: url('./assets/test1.jpg') center center no-repeat;
+  background: url('../assets/test1.jpg') center center no-repeat;
   background-size: 300px;
   background-color: transparent;
   &:hover{
-    background: url('./assets/test1.jpg') left center no-repeat;
+    background: url('../assets/test1.jpg') left center no-repeat;
     background-size: 600px;
     .fa{
       opacity: 1;
@@ -339,12 +339,12 @@ grid-template-columns: 1fr;
   }
 }
 .card1{
-    background: url('./assets/test1.jpg') center center no-repeat;
+    background: url('../assets/test1.jpg') center center no-repeat;
     background-size: 300px;
     background-color: #000000;
 
   &:hover{
-    background: url('./assets/test1.jpg') right center no-repeat;
+    background: url('../assets/test1.jpg') right center no-repeat;
     background-size: 600px;
     background-color: #201f1f;
 
@@ -358,12 +358,12 @@ grid-template-columns: 1fr;
   }
 }
 .card2, .card3{
-  background: url('./assets/test.jpg') center center no-repeat;
+  background: url('../assets/test.jpg') center center no-repeat;
   background-size: 300px;
   background-color: #000000;
 
   &:hover{
-    background: url('./assets/test.jpg') top center no-repeat;
+    background: url('../assets/test.jpg') top center no-repeat;
     background-size: 600px;
     background-color: #201f1f;
 
