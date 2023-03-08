@@ -304,12 +304,12 @@ a:hover {
 }
 
 .card0 {
-  background: url("/assets/test1.jpg") center center no-repeat;
+  background: url("./assets/test1.jpg") center center no-repeat;
   background-size: 300px;
   background-color: transparent;
 }
 .card0:hover {
-  background: url("/assets/test1.jpg") left center no-repeat;
+  background: url("./assets/test1.jpg") left center no-repeat;
   background-size: 600px;
 }
 .card0:hover .fa {
@@ -317,12 +317,12 @@ a:hover {
 }
 
 .card1 {
-  background: url("/assets/test1.jpg") center center no-repeat;
+  background: url("./assets/test1.jpg") center center no-repeat;
   background-size: 300px;
   background-color: #000000;
 }
 .card1:hover {
-  background: url("/assets/test1.jpg") right center no-repeat;
+  background: url("./assets/test1.jpg") right center no-repeat;
   background-size: 600px;
   background-color: #201f1f;
 }
@@ -334,12 +334,12 @@ a:hover {
 }
 
 .card2, .card3 {
-  background: url("/assets/test.jpg") center center no-repeat;
+  background: url("./assets/test.jpg") center center no-repeat;
   background-size: 300px;
   background-color: #000000;
 }
 .card2:hover, .card3:hover {
-  background: url("/assets/test.jpg") top center no-repeat;
+  background: url("./assets/test.jpg") top center no-repeat;
   background-size: 600px;
   background-color: #201f1f;
 }
